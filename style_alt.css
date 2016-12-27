@@ -1,4 +1,12 @@
 .mdl-cell{
 	background-color: #f44336;
-	height: 100px;
+	height: 160px;
 }
+
+@media (min-width: 840px) 
+{
+  .nula 
+   {
+    height: 150px;
+   }
+ }  
