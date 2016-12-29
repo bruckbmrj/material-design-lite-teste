@@ -1,12 +1,26 @@
+/* definir cor da célula do grid e o tamanho */
 .mdl-cell{
 	background-color: #f44336;
 	height: 160px;
 }
 
+/*  media para criar uma div para deixar o footer la embaixo */
 @media (min-width: 840px) 
 {
   .nula 
    {
     height: 150px;
    }
- }  
+ }
+
+/* ajustes dos badges q estão ruins */
+ .badge_mod.mdl-badge[data-badge]:after{
+ 	top: 8px;
+    right: 2px;
+ }
+
+ /* mudando cor do material icon do header */
+ .headericon{
+ 	color: #fdd4d1;
+ 	text-decoration: none;
+ }   
