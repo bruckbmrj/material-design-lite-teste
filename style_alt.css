@@ -5,12 +5,12 @@
 }
 
 .mdl-grid{
-	color: #fdd4d1;
+	
 }
 
 .backgroud-claro{
 	background-color: #fdd4d1;
-	min-height: 50px;
+	min-height: 60px;
 }
 
 /*  media para criar uma div para deixar o footer la embaixo */
@@ -32,4 +32,13 @@
  .headericon{
  	color: #fdd4d1;
  	text-decoration: none;
- }   
+ }
+
+ /*tamanho das fontes*/
+ .md-18{font-size: 18px!important;}
+ .md-24{font-size: 24px!important;}
+ .md-36{font-size: 36px!important;}
+ .md-48{font-size: 48px!important;}
+ /*cor das fontes*/
+ .laranja{color: #fb8c00}
+ .verde{color: #a4c639}   
