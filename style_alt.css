@@ -1,7 +1,7 @@
 /* definir cor da célula do grid e o tamanho */
 .mdl-cell{
 	background-color: #f44336;
-	min-height: 180px;
+	min-height: 240px;
 }
 
 .mdl-grid{
@@ -10,7 +10,8 @@
 
 .backgroud-claro{
 	background-color: #fdd4d1;
-	min-height: 60px;
+	min-height: 80px;
+	max-height: 270px;
 }
 
 /*  media para criar uma div para deixar o footer la embaixo */
@@ -18,7 +19,7 @@
 {
   .nula 
    {
-    min-height: 350px;
+    
    }
  }
 
@@ -41,4 +42,33 @@
  .md-48{font-size: 48px!important;}
  /*cor das fontes*/
  .laranja{color: #fb8c00}
- .verde{color: #a4c639}   
+ .verde{color: #a4c639}
+
+ /* propriedades do card */
+ .cell_card{
+ 	min-height: 380px;
+ }
+
+ .backgroud-claro_card{
+	background-color: #fdd4d1;
+	min-height: 275px;
+}
+
+ .demo_card{
+	
+ }
+
+ .demo_card > .mdl-card__title{
+ 	color: #fff;
+ 	height: 100px;
+ 	background: url('Casino-Backgrounds.jpg') center / cover;
+ }
+
+  .demo_card > .mdl-card--border{
+ 	color: #fff;
+ 	background: url('Casino-Backgrounds.jpg') center / cover;
+ }   
+
+  .demo_card > .mdl-card__menu{
+ 	color: #fff;
+ } 
