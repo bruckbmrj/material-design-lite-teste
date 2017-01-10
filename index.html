@@ -123,7 +123,23 @@
 					<div class="mdl-cell mdl-cell--4-col ">
 						<h3>Textfields</h3>
 						<div class="backgroud-claro">
-							
+							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<label class="mdl-textfield__label" for="user">Usuário</label>
+								<input class="mdl-textfield__input" type="text" id="user" pattern="[A-Z,a-z, ]*">
+								<span class="mdl-textfield__error">Apenas Letras e Espaços</span>
+							</div>
+
+							<div class="mdl-textfield mdl-js-textfield">
+								<label class="mdl-textfield__label" for="user">Número</label>
+								<input class="mdl-textfield__input" type="text" id="user" pattern="[0-9]*">
+								<span class="mdl-textfield__error">Apenas Numeros</span>
+							</div>
+
+							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<label class="mdl-textfield__label" for="user">Usuário</label>
+								<textarea class="mdl-textfield__input" type="text" id="user"></textarea>
+							</div>
+
 						</div>
 					</div>
 
@@ -149,6 +165,61 @@
 						</div>
 					</div>
 
+					<div class="mdl-cell mdl-cell--6-col ">
+						<h3>Tabelas</h3>
+						<div class="backgroud-claro">
+
+							<table class="mdl-data-table mdl-js-data-table mdl-shadow--3dp mdl-data-table--selectable">
+								<thead>
+									<tr>
+										<th class="mdl-data-table__cell--non-numeric">Nome</th>
+										<th>Idade</th>
+										<th>ID</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric">João Gabriel</td>
+										<td>22</td>
+										<td>2999</td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric">Andre Benjamim</td>
+										<td>23</td>
+										<td>3000</td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric">Helio Jarbas</td>
+										<td>25</td>
+										<td>3001</td>
+									</tr>
+									<tr>
+										<td class="mdl-data-table__cell--non-numeric">Edson Lima</td>
+										<td>27</td>
+										<td>3002</td>
+									</tr>
+								</tbody>
+							</table>	
+
+						</div>
+					</div>
+
+					<div class="mdl-cell mdl-cell--6-col ">
+						<h3>Tooltips</h3>
+						<div class="backgroud-claro">
+							
+							<p>A linguagem de marcação utilizada na Web é a <span id="tool1">HTML</span></p>
+							<span for="tool1" class="mdl-tooltip"><b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage</span>
+
+							<p>A linguagem de marcação utilizada na Web é a <span id="tool2">HTML</span></p>
+							<span for="tool2" class="mdl-tooltip mdl-tooltip--large"><b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage</span>
+
+							<p>A linguagem de marcação utilizada na Web é a <span id="tool3">HTML</span></p>
+							<span for="tool3" class="mdl-tooltip"><b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage<br>
+							<b>L</b>inguagem de <b>M</b>arcação de <b>H</b>iper<b>T</b>exto</span>
+
+						</div>
+					</div>			
 
 				</div>
 
