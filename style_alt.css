@@ -1,7 +1,8 @@
 /* definir cor da célula do grid e o tamanho */
 .mdl-cell{
 	background-color: #f44336;
-	min-height: 240px;
+	min-height: 280px;
+	padding: 10px;
 }
 
 .mdl-grid{
@@ -9,19 +10,27 @@
 }
 
 .backgroud-claro{
-	background-color: #fdd4d1;
-	min-height: 80px;
-	max-height: 270px;
+	background-color: #fed4d1;
+	min-height: 100px;
+	padding: 10px;
 }
 
-/*  media para criar uma div para deixar o footer la embaixo */
-@media (min-width: 840px) 
+/*  media para deixar os cards em linha quando em telas maiores */
+@media (min-width: 740px) 
 {
-  .nula 
-   {
-    
-   }
+  .demo_card{
+	display: inline-flex!important;
  }
+ }
+/* media deixar os cards e cabendo no quadro em telas menores */
+@media (max-width: 410px){
+	.mdl-card{
+		width: 95%!important;
+	}
+}
+
+
+
 
 /* ajustes dos badges q estão ruins */
  .badge_mod.mdl-badge[data-badge]:after{
@@ -49,14 +58,8 @@
  	min-height: 380px;
  }
 
- .backgroud-claro_card{
-	background-color: #fdd4d1;
-	min-height: 275px;
-}
 
- .demo_card{
-	
- }
+ 
 
  .demo_card > .mdl-card__title{
  	color: #fff;
@@ -72,3 +75,56 @@
   .demo_card > .mdl-card__menu{
  	color: #fff;
  } 
+
+ /* card menu */
+ .container-menu{
+ 	position: relative;
+	width: 200px;
+ 	display: inline-block;
+ 	margin: 5px;
+ 	vertical-align: top;
+ }
+
+ .background-menu{
+ 	background: #fff;
+ 	height: 148px;
+ 	width: 100%;
+ }
+
+ .bar-menu-right, .bar-menu-left{
+ 	box-sizing: border-box;
+ 	background: #ee4636;
+ 	color: #fff;
+ 	width: 100%;
+ 	padding: 16px;
+ }
+
+ .bar-menu-right{
+ 		text-align: right;
+ }
+
+ .bar-menu-left{
+ 		text-align: left;
+ }
+
+ .listatst{
+ 	background: #ff6858;
+ }
+
+ .listatst a{
+ 	text-decoration: none;
+ }
+
+.itemtst:hover {
+    background-color: #ff0000!important;
+}
+
+/*cor do drawer */
+.drawerclass{
+	background-color: #fed4d1!important; 
+}
+
+
+
+
+
